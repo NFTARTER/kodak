@@ -5,78 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/kodak_logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
     <title>kodak | kodak apparrel online store</title>
 </head>
 <body>
-    <header>
-        <div id="ad_texts">
-            <p>설 연휴 10만원 쇼핑 지원금 받기!</p>
-        </div>
-        <h1><a href=""><img src="./images/logo_1.png" alt="Kodak"></a></h1>
-        <nav>
-            <ul id="gnb">
-                <li><a href="#">NEW</a>
-                    <ul class="lnb_depth1">
-                        <li>윈터 아이템</li>
-                        <li>아우터</li>
-                        <li>상의</li>
-                        <li>하의</li>
-                        <li>셋업</li>
-                    </ul>
-                </li>
-                <li><a href="#">MEN</a>
-                    <ul class="lnb_depth1">
-                        <li><span>아우터</span>
-                            <p><a href="#">다운 자켓</a></p>
-                            <p><a href="#">플리스 자켓</a></p>
-                            <p><a href="#">자켓/점퍼</a></p>
-                            <p><a href="#">아노락</a></p>
-                            <p><a href="#">베스트</a></p>
-                        </li>
-                        <li><span>상의</span>
-                            <p><a href="#">맨투맨/후디</a></p>
-                            <p><a href="#">집업/후드집업</a></p>
-                            <p><a href="#">스웨터/가디건</a></p>
-                            <p><a href="#">긴팔티셔츠</a></p>
-                            <p><a href="#">반팔티셔츠</a></p>
-                            <p><a href="#">슬리브리스</a></p>
-                        </li>
-                        <li><span>하의</span>
-                            <p><a href="#">롱팬츠</a></p>
-                            <p><a href="#">데님팬츠</a></p>
-                            <p><a href="#">숏팬츠</a></p>
-                            <p><a href="#">원피스/스커트</a></p>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#">WOMEN</a></li>
-                <li><a href="#">KIDS</a></li>
-                <li><a href="#">ACC</a></li>
-                <li><a href="#">SHOES</a></li>
-                <li><a href="#">SALE</a></li>
-                <li><a href="#">SHOWCASE</a></li>
-            </ul>
-        </nav>
-        <div class="nav_icons">
-            <a href="#"><img src="./images/icon_search.png" alt="search"></a>
-            <a href="#"><img src="./images/icon_cart.png" alt="cart"></a>
-            <a href="#"><img src="./images/icon_mypage.png" alt="mypage"></a>
-        </div>
-    </header>
+    <div id="wrap">
+        <header>
+            <div id="ad_texts">
+                <a href="#"><p>설 연휴 10만원 쇼핑 지원금 받기!</p></a>
+            </div>
+            <h1><a href=""><img src="./images/kodak_logo.png" alt="Kodak"></a></h1>
+            <nav>
+                <ul id="gnb">
+                    <li><a href="#">NEW</a>
+                        <ul class="lnb_depth1">
+                            <li>윈터 아이템</li>
+                            <li>아우터</li>
+                            <li>상의</li>
+                            <li>하의</li>
+                            <li>셋업</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">MEN</a>
+                        <ul class="lnb_depth1">
+                            <li><a href="#">아우터</a>
+                                <ul class="lnb_depth2">
+                                    <li><a href="#">다운 자켓</a></li>
+                                    <li><a href="#">플리스 자켓</a></li>
+                                    <li><a href="#">자켓/점퍼</a></li>
+                                    <li><a href="#">아노락</a></li>
+                                    <li><a href="#">베스트</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">상의</a>
+                                <ul class="lnb_depth2"></ul>
+                                    <li><a href="#">맨투맨/후디</a></li>
+                                    <li><a href="#">집업/후드집업</a></li>
+                                    <li><a href="#">스웨터/가디건</a></li>
+                                    <li><a href="#">긴팔티셔츠</a></li>
+                                    <li><a href="#">반팔티셔츠</a></li>
+                                    <li><a href="#">슬리브리스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">하의</a>
+                                <ul class="lnb_depth2">
+                                    <li><a href="#">롱팬츠</a></li>
+                                    <li><a href="#">데님팬츠</a></li>
+                                    <li><a href="#">숏팬츠</a></li>
+                                    <li><a href="#">원피스/스커트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">KIDS</a></li>
+                    <li><a href="#">ACC</a></li>
+                    <li><a href="#">SHOES</a></li>
+                    <li><a href="#">SALE</a></li>
+                    <li><a href="#">SHOWCASE</a></li>
+                </ul>
+            </nav>
+            <div class="icons_group">
+                <a href="#"><img src="./images/right_search.png" alt="search">
+                    <div id="search_box">
+                        <img src="./images/close_btn.png" alt="close_btn">
+                        <form action="#" method="get">
+                            <input type="text" placeholder="검색어를 입력하세요" name="keywords" id="keywords">
+                            <a href=""><img src="./images/right_search.png" alt="search"></a>
+                            <u></u>
+                        </form>
+                        <div id="recomm_texts">
+                            <span>추천검색어<span>
+                            <p><a href="#">컬러라마 경량다운</a></p>
+                            <p><a href="#">씨너리그래픽</a></p>
+                            <p><a href="#">브라우니다운</a></p>
+                            <p><a href="#">차메라</a></p>
+                            <p><a href="#">스노우워싱</a></p>
+                            <p><a href="#">스텐넥덕다운</a></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#"><img src="./images/right_cart.png" alt="cart"></a>
+                <a href="#"><img src="./images/right_mypage.png" alt="mypage"></a>
+            </div>
+        </header>
+    </div>
     <!-- 메인 -->
     <main>
-        <div id="banner_content"><!-- bg 이미지 -->
-            <div class="viewport">
-                <div class="img_group">
-                    <img src="./images/bg_1.jpg" alt="bg_1">
-                    <h1>Color Your Day, Kodak Style</h1>
-                    <p>활용도 높은 워싱 그래픽 티셔츠부터<br>가볍고 화사한 컬러감의 신상 가방 라인업까지!</p>
-                    <img src="./images/bg_2.jpg" alt="bg_2">
-                    <h1>Color Your Day, Kodak Style</h1>
-                    <p>활용도 높은 워싱 그래픽 티셔츠부터<br>가볍고 화사한 컬러감의 신상 가방 라인업까지!</p>
+            <div id="slide_wrap">
+                <div class="slide_container">
+                    <div class="slide">
+                        <img src="./images/bg_1.jpg" alt="bg_1">
+                        <h1>Color Your Day, Kodak Style</h1>
+                        <p>활용도 높은 워싱 그래픽 티셔츠부터<br>가볍고 화사한 컬러감의 신상 가방 라인업까지!</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/bg_2.jpg" alt="bg_2">
+                        <h1>Color Your Day, Kodak Style</h1>
+                        <p>활용도 높은 워싱 그래픽 티셔츠부터<br>가볍고 화사한 컬러감의 신상 가방 라인업까지!</p>
+                    </div>
                 </div>
             </div>
             <u></u> <!-- 언더라인 -->
@@ -92,8 +121,8 @@
             <a href="#"># 윈터 슈즈</a>
         </div>
     <!-- 한 주간 베스트 섹션 -->
-        <div id="weekly_section">
-            <div>
+        <div id="slide_wrap">
+            <div class="slide_container">
                 <h2>Weekly Best</h2>
                 <div class="tabs">
                     <button>OUTER</button>
@@ -104,18 +133,16 @@
                 <img src="./images/icon_prev.png" alt="prev_btn">
                 <img src="./images/icon_next.png" alt="next_btn">
             </div>
-        <div id="product_list">
-            <div class="viewport">
-                <div class="img_group">
-                    <span class="rank"><u>1위</u></span>
-                    <a href="#"><img src="./images/cloth_1.jpg" alt="코닥패딩 #1 ICE SKY BLUE"></a>
-                    <div class="size_numb">
-                        <p>S(90)</p>
-                        <p>M(95)</p>
-                        <p>L(100)</p>
-                        <p>XL(105)</p>
-                        <p>2XL(110)</p>
-                    </div>
+            <div class="slide">
+                <span class="rank"><u>1위</u></span>
+                <a href="#"><img src="./images/cloth_1.jpg" alt="코닥패딩 #1 ICE SKY BLUE"></a>
+                <div class="size_numb">
+                    <p>S(90)</p>
+                    <p>M(95)</p>
+                    <p>L(100)</p>
+                    <p>XL(105)</p>
+                    <p>2XL(110)</p>
+                </div>
                     <h3>RGB 에어홀 라이트 자켓 BEIGE</h3>
                     <p class="price">229,000원</p>
                     <a href="#"><img src="./images/icon_heart.png" alt="heart_icon"></a>
